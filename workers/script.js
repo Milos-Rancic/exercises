@@ -43,8 +43,6 @@ function addWorker()
     var education = document.getElementById('education').value;
     var salary = countSalary(wyears, education);
 
-
-
     workers.push({name: name, wyears: wyears, education: education, salary: salary });
 
     alert(`Worker ${firstName} ${sureName} has been added`);
